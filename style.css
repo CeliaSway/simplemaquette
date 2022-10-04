@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+body header nav {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav h1 {
+  width: 10%;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+body header nav ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+  align-items: center;
+}
+body header nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+body header nav ul #but {
+  background-color: #00e1ff;
+  border-radius: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+body header nav ul #but a {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
