@@ -41,4 +41,23 @@ body header nav ul #but {
 }
 body header nav ul #but a {
   color: white;
+}
+body #hero {
+  height: 650px;
+  background-image: url("./hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+body #hero #blocone {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 0;
+}
+body #hero #blocone h2 {
+  text-align: center;
+}
+body #hero #blocone p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
