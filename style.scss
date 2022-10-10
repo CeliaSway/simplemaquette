@@ -59,10 +59,19 @@ body{
             width: 60%;
             margin: auto;
             margin-bottom: 0;
-        
-            h2{
+            #star{
+                margin: auto;
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: white;
+                 h2{
                 text-align: center;
+                color: white;
+                }
             }
+
             p{
                 text-align: center;
             }

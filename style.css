@@ -55,8 +55,17 @@ body #hero #blocone {
   margin: auto;
   margin-bottom: 0;
 }
-body #hero #blocone h2 {
+body #hero #blocone #star {
+  margin: auto;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+body #hero #blocone #star h2 {
   text-align: center;
+  color: white;
 }
 body #hero #blocone p {
   text-align: center;
