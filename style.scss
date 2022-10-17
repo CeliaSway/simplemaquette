@@ -59,6 +59,7 @@ body{
             width: 60%;
             margin: auto;
             margin-bottom: 0;
+            padding-bottom: 6vh;
             #star{
                 margin: auto;
                 width: 20%;
@@ -69,12 +70,109 @@ body{
                  h2{
                 text-align: center;
                 color: white;
+                font-size: 1.3em;
+                font-family: 'Roboto'sans-serif;
+                letter-spacing: 0,1em;
                 }
             }
 
             p{
                 text-align: center;
+                color: white;
+                font-size: 1em;
+                font-family: 'Roboto',sans-serif;
+    
             }
         }
     }
+    #about{
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+        
+    h2{
+        margin-top: 0%;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 0,1em;
+        color: #00e1ff;
+
+    }
+    p{
+        font-family: 'Roboto',sans-serif;
+        text-align: center;
+        font-size: 1em;
+        color: black;
+        width: 60%;
+        margin: auto;
+    }
+    }
+    #team{
+        background-color: #00e1ff;
+        padding-top: 6vh;
+        letter-spacing: 0,1em;
+        font-family: 'Roboto',sans-serif;    
+        text-transform: capitalize;
+    h2{
+        margin-top: 0%;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 0,1em;
+        color: white;
+    }
+    #blocteam{
+        width: 35%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .john{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            h3{
+                color: white;
+                font-size: 1em;
+                font-family: 'Roboto',sans-serif;
+                font-weight: 800;
+            }
+            p{
+                color: white;
+                font-size: 1em;
+                font-family: 'Roboto',sans-serif;
+                font-style: italic;
+                margin-top: 0;
+            }
+        }
+    }
+    #butt{
+        width: 14%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        button{
+            background-color: #00e1ff;
+            border-radius: 20px;
+            border: 1px white solid;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.3em;
+                font-family: 'Roboto',sans-serif;
+                text-align: center;
+            }
+
+        }
+    }
+    }
+
 }
